@@ -4,7 +4,7 @@ describe 'Shoe' do
     # made aware of the brands of the shoes that are being created?
 
     it 'keeps track of all brands' do
-      brands = ["Uggs", "Rainbow"]
+      brands = ["Uggs", "Rainbow","Nike"]
       brands.each do |brand|
         Shoe.new(brand)
       end
